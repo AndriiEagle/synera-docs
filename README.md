@@ -11,6 +11,7 @@
 | Призначення | Репозиторій | Гілка / стан |
 |---|---|---|
 | **Код продукту** | https://github.com/AndriiEagle/synera_-MVPplus- | гілка `codex/synera-documentation-refresh` |
+| **Контекстні документи multihost** (CONTEXT.json, INSIGHTS.json, RECONCILIATION, legal-chain R2) | https://github.com/AndriiEagle/synera_-MVPplus- | гілка `codex/synera-multihost-plan-20260915`, папка `docs/context-20260916/` |
 | **Документація (цей)** | https://github.com/AndriiEagle/synera-docs | `main` |
 
 Гілка `main` у репозиторії коду — **застарілий Flutter/Firebase checkout**, не використовувати. Робоча гілка — тільки `codex/synera-documentation-refresh`.
