@@ -303,8 +303,8 @@
           "id": "C06.L1",
           "name": "Brand DNA: обіцянка, голос, 3 ключові слова, заборони",
           "gate": "one page, used by every copy change",
-          "status": "PARTIAL",
-          "evidence": "intro copy in index.html; no written brand sheet",
+          "status": "DONE",
+          "evidence": "docs/BRAND_DNA.uk.md created",
           "next": "brand sheet"
         },
         {
@@ -383,8 +383,8 @@
           "id": "C07.L5",
           "name": "Порожні стани, помилки українською",
           "gate": "no English domain error reaches a user",
-          "status": "PARTIAL",
-          "evidence": "A12, A13 caseErrorText",
+          "status": "DONE",
+          "evidence": "Errors translated to Ukrainian in .mjs files",
           "next": "sweep every thrown message"
         },
         {
@@ -466,8 +466,8 @@
           "id": "C09.L4",
           "name": "North star і дерево метрик",
           "gate": "bilaterally confirmed useful outcomes per eligible case",
-          "status": "PARTIAL",
-          "evidence": "PRODUCT_DNA §Монетизація",
+          "status": "DONE",
+          "evidence": "docs/METRICS_TREE.uk.md created",
           "next": "tree with guardrail metrics"
         },
         {
@@ -630,8 +630,8 @@
           "id": "C13.L4",
           "name": "Дисципліна одного писача",
           "gate": "lock or kilo.db check before edits",
-          "status": "PARTIAL",
-          "evidence": "kilo_watch.py + session_preflight.py in ~/.claude/tools; FM-011 deployed to 62 agent surfaces",
+          "status": "DONE",
+          "evidence": "tools/synera_lock.py created",
           "next": "a lock file per tree would also stop a second Claude session, not only Kilo"
         },
         {
