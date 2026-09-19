@@ -1,0 +1,7 @@
+# Keep documentation byte-stable across hosts (Windows checkout would otherwise
+# rewrite text files to CRLF and break hash comparisons in the plan package).
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.zip binary
+*.sqlite3 binary
