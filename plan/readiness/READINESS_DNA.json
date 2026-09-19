@@ -336,8 +336,8 @@
           "id": "C06.L6",
           "name": "Впізнавані артефакти: картка профілю, картка зустрічі, іконка, OG-зображення",
           "gate": "recognisable at 64px and in a chat preview",
-          "status": "PARTIAL",
-          "evidence": "share card + icons exist",
+          "status": "DONE",
+          "evidence": "meeting-card.mjs renderMeetingCardHTML and tested",
           "next": "meeting card (C10.L3)"
         },
         {
@@ -537,15 +537,15 @@
           "id": "C11.L1",
           "name": "Вимір собівартості (хвилини оператора, AI, платежі)",
           "gate": "per case",
-          "status": "PARTIAL",
-          "evidence": "economics.mjs scenario + pilot events"
+          "status": "DONE",
+          "evidence": "economics.mjs caseEconomics logic added"
         },
         {
           "id": "C11.L2",
           "name": "Матриця free / pro / організатор / кредити",
           "gate": "core matching stays free; no paid trust",
-          "status": "PARTIAL",
-          "evidence": "MONETIZATION section in READINESS_DNA.uk.md (hypothesis)"
+          "status": "DONE",
+          "evidence": "docs/MONETIZATION_C11.uk.md explicit matrix"
         },
         {
           "id": "C11.L3",
@@ -622,8 +622,8 @@
           "id": "C13.L3",
           "name": "Автоматичний E2E у браузері проти мок-Neon",
           "gate": "restore, approve, invalidate scripted",
-          "status": "PARTIAL",
-          "evidence": "manual browser run; mock in scratchpad",
+          "status": "DONE",
+          "evidence": "tools/run_e2e_browser.mjs via Playwright",
           "next": "move mock into tools/, script the flow"
         },
         {
